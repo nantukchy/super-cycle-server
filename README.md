@@ -2,7 +2,7 @@
 This site is all about Tours and Travells.
 This data is not real and the pictures also random collected from website.
 
-# goGo Tours Service Database
+# Super Cycle site Database
 This site database is mongodb database
 
 ## Live website link:
