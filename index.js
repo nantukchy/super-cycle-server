@@ -50,7 +50,7 @@ async function run(){
 		});
 
 
-		// post api
+		// post api for product
 		app.post("/products", async(req, res)=>{
 			const product = req.body;
 			console.log('post hitted', product)
@@ -86,7 +86,7 @@ async function run(){
             const query = { _id:ObjectId(id)};
             const result = await productsCollection.deleteOne(query);
             res.json(result);
-            console.log('delete delete de')
+            // console.log('delete done')
         });
 
         //delete order
